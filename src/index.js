@@ -1,5 +1,5 @@
 import 'phaser'
 import Pandaemonium from './Pandaemonium'
 
-const instance = new Pandaemonium(document.getElementById('game'))
-instance.run()
+window.pandaemonium = new Pandaemonium(document.getElementById('game'))
+window.pandaemonium.run()
